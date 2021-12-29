@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'chw-todo-list';
+  constructor(){
+    // setTimeout(() => {
+    //   this.title="Changed by Satyam"
+    // }, 2000);
+    
+  }
 }
